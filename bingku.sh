@@ -18,7 +18,7 @@ echo
 echo $purple"1.)TOMBOL KANAN KIRI " 
 echo $purple"2.)MENGUBAH TAMPILAN BAGUS"
 echo $purple"3.)VIRTEX"
-echo $purple"4.)VIRUS
+echo $purple"4.)VIRUS"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
