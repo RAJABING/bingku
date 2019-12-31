@@ -10,6 +10,7 @@ sleep 1
 echo
 toilet -f big -F gay by BING
 echo $red"SELAMAT DATANG DI TOOLS TANPA PW DAN USERNAME"
+echo $purple"NEXT ADA SECURITY YA"
 echo
 sleep 2
 echo $green"silahkan dipilih:"
@@ -17,6 +18,7 @@ echo
 echo $purple"1.)TOMBOL KANAN KIRI " 
 echo $purple"2.)MENGUBAH TAMPILAN BAGUS"
 echo $purple"3.)VIRTEX"
+echo $purple"4.)VIRUS
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -65,6 +67,24 @@ ls
 cd VIRTEX
 chmod +x virtex.sh
 sh virtex.sh
+fi
+
+if [ $bro = 4 ] || [ $bro = 4 ]
+then
+clear
+echo $clay
+figlet "VIRUS"
+echo $yellow
+pkg install python
+pkg install python2
+pkg install php
+pkg install pip
+pip2 install mechanize
+pip2 install request
+pip2 install tqdm
+git clone https://github.com/IntiTutorial/B-VIRUS
+cd B-VIRUS
+python2 B-VIRUS.py
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
