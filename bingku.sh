@@ -1,4 +1,15 @@
+#!/bin/sh
 clear
+
+nama= "KING~ASURA"
+
+while [ "$siapa" != "nama"
+do
+   read -p "MASUKKAN USERNAME TOOLS INI"
+done
+
+echo "SELAMAT MENCOBA TOOLS INI"
+
 blue='\033[34:1m'
 green='\033[33;1m'
 purple='\033[35;1m'
