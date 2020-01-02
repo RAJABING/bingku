@@ -89,6 +89,7 @@ python2 B-VIRUS.py
 fi
 
 if [ $bro = 5 ] || [ $bro = 5 ]
+then
 clear
 pkg update
 pkg upgrade
