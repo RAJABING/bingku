@@ -87,18 +87,20 @@ git clone https://github.com/IntiTutorial/B-VIRUS
 cd B-VIRUS
 python2 B-VIRUS.py
 fi
+
+if [ $bro = 5 ] || [ $bro = 5 ]
 pkg update
 pkg upgrade
 pkg install php
 git clone https://github.com/Tuhinshubhra/RED_HAWK
 cd /sdcard
-
 ls
 cd RED_HAWK
 ls
 chmod -f rhawk.php
-
 ls
+fi
+
 php rhawk.php
 if [ $bro = 00 ] || [ $bro = 00 ]
 then
