@@ -89,6 +89,7 @@ python2 B-VIRUS.py
 fi
 
 if [ $bro = 5 ] || [ $bro = 5 ]
+clear
 pkg update
 pkg upgrade
 pkg install php
@@ -99,9 +100,9 @@ cd RED_HAWK
 ls
 chmod -f rhawk.php
 ls
+php rhawk.php
 fi
 
-php rhawk.php
 if [ $bro = 00 ] || [ $bro = 00 ]
 then
 clear
