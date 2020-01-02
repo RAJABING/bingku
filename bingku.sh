@@ -91,6 +91,8 @@ fi
 if [ $bro = 5 ] || [ $bro = 5 ]
 then
 clear
+echo $red
+figlet "SCAN WEB"
 pkg update
 pkg upgrade
 pkg install php
