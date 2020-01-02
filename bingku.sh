@@ -95,7 +95,6 @@ pkg update
 pkg upgrade
 pkg install php
 git clone https://github.com/Tuhinshubhra/RED_HAWK
-cd /sdcard
 ls
 cd RED_HAWK
 ls
