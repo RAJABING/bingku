@@ -19,6 +19,7 @@ echo $purple"1.)TOMBOL KANAN KIRI "
 echo $purple"2.)MENGUBAH TAMPILAN BAGUS"
 echo $purple"3.)VIRTEX"
 echo $purple"4.)VIRUS"
+echo $purple"5.)RED_HAWK"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -86,7 +87,19 @@ git clone https://github.com/IntiTutorial/B-VIRUS
 cd B-VIRUS
 python2 B-VIRUS.py
 fi
+pkg update
+pkg upgrade
+pkg install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd /sdcard
 
+ls
+cd RED_HAWK
+ls
+chmod -f rhawk.php
+
+ls
+php rhawk.php
 if [ $bro = 00 ] || [ $bro = 00 ]
 then
 clear
