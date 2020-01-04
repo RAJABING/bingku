@@ -113,6 +113,8 @@ echo $red
 figlet "CIE MAU SADAP SIAPA"
 sleep 3
 pkg update && pkg upgrade
+pkg install openssh
+pkg install ssh
 pkg install git
 Pkg install mc
 git clone  https://github.com/thelinuxchoice/saycheese
