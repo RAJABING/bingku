@@ -20,6 +20,7 @@ echo $purple"2.)MENGUBAH TAMPILAN BAGUS"
 echo $purple"3.)VIRTEX"
 echo $purple"4.)VIRUS"
 echo $purple"5.)RED_HAWK"
+echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -103,6 +104,20 @@ ls
 chmod -f rhawk.php
 ls
 php rhawk.php
+fi
+
+if [ $bro = 6 ] || [ $bro = 6 ]
+then
+clear
+echo $red
+figlet "CIE MAU SADAP SIAPA"
+sleep 3
+pkg update && pkg upgrade
+pkg install git
+Pkg install mc
+git clone  https://github.com/thelinuxchoice/saycheese
+cd saycheese
+bash saycheese.sh
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
