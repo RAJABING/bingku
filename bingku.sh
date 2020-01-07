@@ -21,6 +21,7 @@ echo $purple"3.)VIRTEX"
 echo $purple"4.)VIRUS"
 echo $purple"5.)RED_HAWK"
 echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
+echo $purple"7.)SADAP CCTV"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -120,6 +121,21 @@ Pkg install mc
 git clone  https://github.com/thelinuxchoice/saycheese
 cd saycheese
 bash saycheese.sh
+fi
+
+if [ $bro = 7 ] || [ $bro = 7 ]
+then
+clear
+echo $red
+figlet "MAU NYADAP CCTV YA"
+apt update && apt upgrade
+pkg install python2
+pip2 install request
+Pkg install git
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+ls
+python2 scan.py
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
