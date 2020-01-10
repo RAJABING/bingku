@@ -22,7 +22,7 @@ echo $purple"4.)VIRUS"
 echo $purple"5.)RED_HAWK"
 echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
 echo $purple"7.)SADAP CCTV"
-echo $purple"8.)DARK FB"
+echo $purple"8.)DARK FB [BERBAHAYA HANYA UNTUK PRO NTAR NYESEL ]"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
