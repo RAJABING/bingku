@@ -22,6 +22,7 @@ echo $purple"4.)VIRUS"
 echo $purple"5.)RED_HAWK"
 echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
 echo $purple"7.)SADAP CCTV"
+echo $purple"8.)DARK FB"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -136,6 +137,21 @@ git clone https://github.com/kancotdiq/ipcs
 cd ipcs
 ls
 python2 scan.py
+fi
+
+if [ $bro = 8 ] || [ $bro = 8 ]
+then
+clear
+echo $red
+figlet "MAU HACK FB YA NIH JANGAN SALAH ADMIN YA"
+apt update && apt upgrade
+pkg install python2
+pip2 install --upgrade pip
+git clone http://github.com/TheMagizz/TheDarkVip
+cd DarkVip
+ls
+pip2 install -r request
+python2 DarkVip.py
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
