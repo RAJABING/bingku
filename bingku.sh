@@ -23,6 +23,7 @@ echo $purple"5.)RED_HAWK"
 echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
 echo $purple"7.)SADAP CCTV"
 echo $purple"8.)DARK FB [BERBAHAYA HANYA UNTUK PRO NTAR NYESEL ]"
+echo $purple"9.)BIKIN SECURITY DI TERMUX"
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -52,13 +53,13 @@ apt install cowsay
 apt install ruby
 gem install lolcat
 apt install neofetch
-nano ~/.zshrc
-clear
-cowsay -f eyes BING | lolcat
+pkg install screenfetch
+nano ~/.zshrc cowsay -f eyes BING | lolcat
 figlet -f standard BING | lolcat
 echo "==============================" | lolcat
 screenfetch
 date | neofetch
+clear
 fi
 
 if [ $bro = 3 ] || [ $bro = 3 ]
@@ -152,6 +153,19 @@ cd DarkVip
 ls
 pip2 install -r request
 python2 DarkVip.py
+fi
+
+if [ $bro = 9 ] || [ $bro = 9 ]
+then
+clear
+echo $green
+figlet "LANGSUNG AJA BRO"
+pkg install python2
+git clone https://github.com/Harisgitama/termux-login2fx.git
+cd termux-login2fx
+python 2 setup.py
+cd $HOME
+python2 useradd.py
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
