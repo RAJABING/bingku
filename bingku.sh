@@ -59,9 +59,8 @@ figlet -f standard BING | lolcat
 echo "==============================" | lolcat
 screenfetch
 date | neofetch"
-sleep 10
-nano ~/.zshrc
-clear
+sleep 20
+nano ~/.zshrc 
 fi
 
 if [ $bro = 3 ] || [ $bro = 3 ]
