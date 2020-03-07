@@ -54,11 +54,11 @@ apt install ruby
 gem install lolcat
 apt install neofetch
 pkg install screenfetch
-nano ~/.zshrc cowsay -f eyes BING | lolcat
+nano ~/.zshrc cowsay (-f eyes BING | lolcat
 figlet -f standard BING | lolcat
 echo "==============================" | lolcat
 screenfetch
-date | neofetch
+date | neofetch)
 clear
 fi
 
