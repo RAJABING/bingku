@@ -30,6 +30,7 @@ echo $purple"6.)LIAT FILE CAMERA/SADAP CAMERA"
 echo $purple"7.)SADAP CCTV"
 echo $purple"8.)DARK FB [BERBAHAYA HANYA UNTUK PRO NTAR NYESEL ]"
 echo $purple"9.)BIKIN SECURITY DI TERMUX"
+echo $purple"10.)BIKIN SCRIPT DEFACE
 echo $red"00.)KELUAR!"
 echo
 read -p "pilihmana:" bro
@@ -173,6 +174,22 @@ cd termux-login2fx
 python 2 setup.py
 cd $HOME
 python2 useradd.py
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+echo $red
+figlet "JANGAN BERBUAT JAHAT"
+pkg update && apt upgrade 
+pkg install python2
+pkg install git
+git clone https://github.com/4L13199/LITESCRIPT
+cd LITESCRIPT
+chmod 777 LITESCRIPT.py
+python2 LITESCRIPT.py
+echo "tulis nih ya:mv hasilsc.html /sdcard/"
+sleep 5
+echo "tulis yg tadi ya"
 fi
 
 if [ $bro = 00 ] || [ $bro = 00 ]
