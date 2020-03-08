@@ -1,5 +1,5 @@
 password="BING"
-until [ "$siapa" = "$password ]
+until [ "$siapa" = "$password" ]
 do
   read -p "TULISKAN PASSWORLD NYA : " siapa
 done 
