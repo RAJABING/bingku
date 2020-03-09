@@ -1,11 +1,4 @@
 clear
-password="BING"
-until [ "$siapa" = "$password" ]
-do
-  read -p "TULISKAN PASSWORLD NYA : " siapa
-done 
-
-clear
 blue='\033[34:1m'
 green='\033[33;1m'
 purple='\033[35;1m'
