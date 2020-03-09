@@ -16,8 +16,6 @@ yellow='\033[33;1m'
 sleep 1
 echo
 toilet -f big -F gay by BING
-echo $red"SELAMAT DATANG DI TOOLS TANPA PW DAN USERNAME"
-echo $purple"NEXT ADA SECURITY YA"
 echo
 sleep 2
 echo $green"silahkan dipilih:"
